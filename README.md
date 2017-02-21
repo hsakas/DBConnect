@@ -8,6 +8,7 @@ Here are some simple steps to start using the library.
 1. Load library
 ''' python
 from dbconnect.connect import SqlConnect
+'''
 
 2. Create a sql instance with all the input parameters
 ''' python
@@ -16,6 +17,10 @@ server = "server_name" e.g "123.65.9"
 database = "db_name" 
 
 db = SqlConnect(driver, server, database)
+
+
+
+
 
 2. Read from Table:
 ''' python
